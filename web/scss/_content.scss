@@ -1,0 +1,52 @@
+.content-box{
+	margin: 10px auto;
+	min-height: 500px;
+}
+
+
+.content-box__card{
+	height:100px;
+	width:150px;
+	border-radius: 15px;
+	margin: 5px 5px;
+	transition: height 0.3s, width 0.3s;
+}
+
+.content-box__card:hover{
+	height: 250px;
+	width: 350px;
+	}
+
+.content-box__boton{
+	margin-top: 20px;
+	background-color:$color-terciario;
+	border-radius: 15px;
+	font-weight: bold;
+	width: 130px;
+	height: 50px;
+	margin: 35px;	
+	transition: height 0.5s width 0.5;
+}
+
+.form-control{
+	background-color: rgba(255, 255, 255, .7);
+	border:none;
+}
+.form-control:focus {
+  background-color: rgba(255, 255, 255, 1);
+  border-color:$color-terciario;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(0, 204, 201, 1);
+}
+.content-box__boton:hover{
+	height: 50px;
+	width: 133px;
+	background: #FD501D;
+}
+.content-box__boton__texto{
+	color: $color-primario;
+}
+
+.content-box__map{
+	margin-top: 150px;
+}
+

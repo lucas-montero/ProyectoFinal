@@ -1,0 +1,27 @@
+
+.header__logo{
+	width:40%;
+	heigth:40%;
+}
+.header__link{
+	padding:5px;
+	width:65px;
+	heigth:65px;
+}
+
+.navbar *{
+	color:whitesmoke !important;
+	font-size: 1.5rem;
+}
+ul .navbar__items :hover{
+	font-weight:bold;
+	background:rgba(92, 72, 130,0.70);
+	border-radius:100px;
+	color: $color-terciario !important;
+	/*a{
+		color: $color-terciario;
+	}*/
+}
+
+
+

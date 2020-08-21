@@ -1,0 +1,15 @@
+
+
+$color-primario:#0d0021;
+$color-secundario:#584f66;
+$color-terciario: #00ccc9;
+body{
+	background-color: $color-primario ;
+	font-family: Quicksand;
+	font-size: 1rem;
+}
+
+@import "header";
+@import "description";
+@import "content";
+@import "footer";
